@@ -1,7 +1,7 @@
 
 from time import time
 
-def numerosPrimos(fin = 1000, inicio = 0):
+def numerosPrimos(inicio = 0, fin = 1000):
     tiempo_inicial = time()
     primos = []
     for i in range(inicio,fin + 1):
@@ -20,4 +20,4 @@ def numerosPrimos(fin = 1000, inicio = 0):
     
 
 if "__main__" == __name__:
-    numerosPrimos(100000)
+    numerosPrimos(0,1000)
